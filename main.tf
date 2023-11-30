@@ -288,17 +288,21 @@ resource "aws_db_subnet_group" "my_db_subnet_group" {
 }
 
 resource "aws_db_instance" "my_db_instance" {
-  allocated_storage      = 20
-  storage_type           = "gp2"
-  engine                 = "mysql"
-  engine_version         = "5.7"
-  instance_class         = "db.t2.micro"
-  db_name                = "MyDBInstance"
-  username               = "MyUsername"
-  password               = "MyPassword"
-  db_subnet_group_name   = aws_db_subnet_group.my_db_subnet_group.name
-  vpc_security_group_ids = [aws_security_group.my_security_group.id]
-  skip_final_snapshot    = true
+  allocated_storage       = 20
+  storage_type            = "gp2"
+  engine                  = "mysql"
+  engine_version          = "5.7"
+  instance_class          = "db.t2.micro"
+  db_name                 = "MyDBInstance"
+  username                = "MyUsername"
+  password                = "MyPassword"
+  db_subnet_group_name    = aws_db_subnet_group.my_db_subnet_group.name
+  vpc_security_group_ids  = [aws_security_group.my_security_group.id]
+  skip_final_snapshot     = true
+  multi_az                = true
+  backup_retention_period = 7
+  backup_window           = "02:00-03:00"
+  maintenance_window      = "Sun:03:30-Sun:04:30"
 }
 
 # AUTO SCALING GROUP ---------------------------------------------------------------------------------
