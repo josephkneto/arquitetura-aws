@@ -42,6 +42,8 @@ Para dar início ao projeto, foi criada uma VPC com as seguintes característica
 ### ANÁLISE DE CUSTO
 
 ![image](https://github.com/josephkneto/projeto-cloud/assets/79852830/9f3ac54f-7083-41d2-b7be-86917a8a6f00)
+![image](https://github.com/josephkneto/projeto-cloud/assets/79852830/db0420c0-ea6c-45de-93ce-880bbe8810af)
+
 
 
 	
