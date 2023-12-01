@@ -7,7 +7,7 @@ Provisionar uma arquitetura na AWS utilizando o Terraform, que englobe o uso de 
 Decisões Técnicas
 
 VPC
-Um VPC, ou Virtual Private Cloud, é um serviço de computação em nuvem que permite que você crie uma rede virtual isolada na infraestrutura de nuvem de um provedor, como a AWS. Essa rede virtual oferece controle total sobre a configuração dos recursos de rede, como sub-redes, tabelas de roteamento e gateways, proporcionando uma camada adicional de segurança e isolamento para os recursos em execução na nuvem. Um VPC permite que você crie e gerencie recursos, como instâncias de servidores, bancos de dados e balanceadores de carga, dentro de um ambiente virtualmente privado e personalizado. Isso facilita a implementação de soluções escaláveis e seguras na nuvem.
+	Um VPC, ou Virtual Private Cloud, é um serviço de computação em nuvem que permite que você crie uma rede virtual isolada na infraestrutura de nuvem de um provedor, como a AWS. Essa rede virtual oferece controle total sobre a configuração dos recursos de rede, como sub-redes, tabelas de roteamento e gateways, proporcionando uma camada adicional de segurança e isolamento para os recursos em execução na nuvem. Um VPC permite que você crie e gerencie recursos, como instâncias de servidores, bancos de dados e balanceadores de carga, dentro de um ambiente virtualmente privado e personalizado. Isso facilita a implementação de soluções escaláveis e seguras na nuvem.
 Para dar início ao projeto, foi criada uma VPC com as seguintes características. Bloco CIDR "10.0.0.0/16" e com suporte de DNS e nomes de host DNS ativos.
 
 SUBNETS
