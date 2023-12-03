@@ -44,6 +44,11 @@ Para dar início ao projeto, foi criada uma VPC com as seguintes característica
 ![image](https://github.com/josephkneto/projeto-cloud/assets/79852830/9f3ac54f-7083-41d2-b7be-86917a8a6f00)
 ![image](https://github.com/josephkneto/projeto-cloud/assets/79852830/db0420c0-ea6c-45de-93ce-880bbe8810af)
 
+## DIAGRAMA
+
+![image](https://github.com/josephkneto/projeto-cloud/assets/79852830/e18e28aa-e2c9-436d-bc4d-8f13fb76794c)
+
+
 
 
 	
