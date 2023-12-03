@@ -36,9 +36,9 @@ Com isso tudo, pode se criar uma conta na AWS e configurar suas credenciais como
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html 
 
 Configurado, pode se rodar os seguintes comandos:
-terraform init -upgrade (para iniciar o terraform)
-terraform destroy (para destruir a infraestrutura já existente)
-terraform apply (Para aplicar as alterações feitas pelo projeto)
+'''terraform init -upgrade (para iniciar o terraform)'''
+'''terraform destroy (para destruir a infraestrutura já existente)'''
+'''terraform apply (Para aplicar as alterações feitas pelo projeto)'''
 
 Com isso feito, pode-se entrar na aplicação pesquisando pelo nome de DNS do load balancer, obtido em seu dashboard da AWS. Após o nome de DNS, deve-se colocar um “/docs”, para acertar a rota da aplicação.
 
